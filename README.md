@@ -31,6 +31,3 @@ nc localhost 10000
 * The code currently receives only one message per client connection.
 * The `connected_clients` list is referenced but not implemented; you’ll need to add it to keep track of clients to broadcast messages properly.
 * You can improve the server by looping in `handle_client` to receive multiple messages and properly managing client connections.
-
-
-Would you like me to help write the updated working version of the server?
